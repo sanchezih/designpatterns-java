@@ -11,7 +11,7 @@ import java.sql.*;
 public class Conexion {
    static String bd = "codejavu";
    static String login = "root";
-   static String password = "";
+   static String password = "qwerty";
    static String url = "jdbc:mysql://localhost/"+bd;
 
    Connection conn = null;
@@ -21,11 +21,11 @@ public class Conexion {
       try{
          //obtenemos el driver de para mysql
          Class.forName("com.mysql.jdbc.Driver");
-         //obtenemos la conexión
+         //obtenemos la conexion
          conn = DriverManager.getConnection(url,login,password);
 
          if (conn!=null){
-            System.out.println("Conección a base de datos "+bd+" OK");
+            System.out.println("Coneccion a base de datos "+bd+" OK");
          }
       }
       catch(SQLException e){
@@ -36,7 +36,7 @@ public class Conexion {
          System.out.println(e);
       }
    }
-   /**Permite retornar la conexión*/
+   /**Permite retornar la conexion*/
    public Connection getConnection(){
       return conn;
    }

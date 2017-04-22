@@ -47,9 +47,9 @@ public class VentanaPrincipal extends JFrame implements ActionListener{
 		labelSeleccion.setText("Escoja que operacion desea realizar");
 		labelSeleccion.setBounds(75, 240, 250, 25);
 
-		textoIntroduccion = "Esta aplicaci�n presenta un ejemplo pr�ctico del patron "
-				+ "de dise�o MVC.\n\n"
-				+ "La aplicaci�n permite registrar, actualizar, buscar y eliminar registros de una tabla Persona." +
+		textoIntroduccion = "Esta aplicacion presenta un ejemplo practico del patron "
+				+ "de disenio MVC.\n\n"
+				+ "La aplicacion permite registrar, actualizar, buscar y eliminar registros de una tabla Persona." +
 				"tambien son vinculados algunos conceptos de los Patrones Value Object y Data Access Objetc\n";
 
 		areaIntroduccion = new JTextArea();
