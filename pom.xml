@@ -10,5 +10,6 @@
   	<module>strategy</module>
   	<module>mediator</module>
   	<module>mvc</module>
+  	<module>state</module>
   </modules>
 </project>
