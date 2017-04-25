@@ -11,5 +11,6 @@
   	<module>mediator</module>
   	<module>mvc</module>
   	<module>state</module>
+  	<module>abstractfactory</module>
   </modules>
 </project>
