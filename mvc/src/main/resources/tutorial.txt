@@ -1,1 +1,0 @@
-http://codejavu.blogspot.com.ar/2013/06/ejemplo-modelo-vista-controlador.html
