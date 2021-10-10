@@ -1,30 +1,26 @@
 package decreacion.singleton.src;
 
-import java.util.Date;
-
 public class Singleton {
 	private static Singleton singleton = null;
 	private String nombre;
 
-	private Singleton() {
-		System.out.println("Creando un singleton " + new Date());
+	private Singleton(String nombre) {
+		this.nombre = nombre;
+		System.out.println("Creando el objeto " + nombre);
 	}
 
-	public static Singleton getInstance() {
+	public static Singleton getInstance(String nombre) {
 		if (singleton == null) {
 			System.out.println("Generando un nuevo singleton");
-			singleton = new Singleton();
+			singleton = new Singleton(nombre);
 		} else {
-			System.out.println("Retornando el mismo singleton");
+			System.out.println("Retornando el singleton");
 		}
 		return singleton;
 	}
 
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+	@Override
+	public String toString() {
+		return "Objeto " + nombre + ": " + super.toString();
 	}
 }
