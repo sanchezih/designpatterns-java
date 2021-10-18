@@ -1,4 +1,4 @@
-package decomportamiento.mediator.src;
+package decomportamiento.mediator01.src;
 /*
  * Created on 05/10/2005
  *
