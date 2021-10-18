@@ -1,4 +1,4 @@
-package decomportamiento.cor.src;
+package decomportamiento.cor01.src;
 
 public interface IHandler {
 	public IHandler getSuccesor();

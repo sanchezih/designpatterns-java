@@ -1,4 +1,4 @@
-package decomportamiento.cor.src;
+package decomportamiento.cor01.src;
 
 public class Main {
 	public static void main(String[] args) {
