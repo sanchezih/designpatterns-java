@@ -15,6 +15,7 @@ import decreacion.mvc02.src.modelo.vo.PersonaVo;
 
 public class VentanaBuscar extends JFrame implements ActionListener {
 
+	private static final long serialVersionUID = 1L;
 	private Coordinador miCoordinador; // objeto miCoordinador que permite la
 										// relacion entre esta clase y la clase
 										// coordinador
