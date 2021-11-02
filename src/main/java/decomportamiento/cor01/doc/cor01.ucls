@@ -14,7 +14,7 @@
   <interface id="2" language="java" name="decomportamiento.cor01.src.IHandler" project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/decomportamiento/cor01/src/IHandler.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="115" width="155" x="41" y="246"/>    
+    <position height="-1" width="-1" x="195" y="370"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -24,34 +24,38 @@
   <class id="3" language="java" name="decomportamiento.cor01.src.Request" project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/decomportamiento/cor01/src/Request.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="187" width="154" x="133" y="401"/>    
+    <position height="-1" width="-1" x="470" y="120"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="4">    
+  <dependency id="4">    
+    <bendpoint x="470" y="370"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="5">    
     <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <association id="5">    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="6">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="6" name="succesor"/>      
-      <multiplicity id="7" minimum="0" maximum="1"/>    
+      <attribute id="7" name="succesor">        
+        <position height="0" width="0" x="77" y="67"/>      
+      </attribute>      
+      <multiplicity id="8" minimum="0" maximum="1">        
+        <position height="0" width="0" x="77" y="67"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="8">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <dependency id="9">    
-    <bendpoint x="226" y="246"/>    
+  <realization id="9">    
     <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
+    <end type="TARGET" refId="2"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
