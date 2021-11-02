@@ -1,4 +1,4 @@
-package decomportamiento.strategy.src;
+package decomportamiento.strategy01.src;
 
 public abstract class EstrategiaDeExportacion {
 	public static final String ESTRATEGIA_XML = "XML";

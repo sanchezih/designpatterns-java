@@ -1,4 +1,4 @@
-package decomportamiento.strategy.src;
+package decomportamiento.strategy01.src;
 
 import java.util.HashMap;
 
