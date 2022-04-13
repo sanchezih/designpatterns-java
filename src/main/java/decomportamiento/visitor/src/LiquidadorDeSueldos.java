@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class LiquidadorDeSueldos implements Visitador {
-	
+
 	private ArrayList<Empleado> empleados = new ArrayList<Empleado>();
 
 	public void visitar(ElementoVisitado elemento) {
@@ -36,7 +36,7 @@ public class LiquidadorDeSueldos implements Visitador {
 	}
 
 	private void mostrarListado() {
-		Iterator listadoDeEmpleados = empleados.iterator();
+		Iterator<Empleado> listadoDeEmpleados = empleados.iterator();
 		while (listadoDeEmpleados.hasNext()) {
 			Empleado empleado = (Empleado) listadoDeEmpleados.next();
 			System.out.println("Nombre: " + empleado.getNombre() + "\t-> Salario: " + empleado.getSalario());
