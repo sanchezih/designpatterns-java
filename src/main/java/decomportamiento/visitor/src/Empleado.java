@@ -1,7 +1,7 @@
 package decomportamiento.visitor.src;
 
 
-public class Empleado implements IElementoVisitado {
+public class Empleado implements ElementoVisitado {
 
 	private String nombre = "";
 	private double salario;
@@ -48,7 +48,7 @@ public class Empleado implements IElementoVisitado {
 		this.salario = salario;
 	}
 
-	public void aceptarVisita(IVisitador visitador) {
+	public void aceptarVisita(Visitador visitador) {
 		visitador.visitar(this);
 	}
 
