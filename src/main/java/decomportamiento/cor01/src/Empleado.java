@@ -1,13 +1,13 @@
 package decomportamiento.cor01.src;
 
+public class Empleado implements IHandler {
 
-public class Employee implements IHandler {
 	private float maxAmount = 0;
 	private IHandler succesor = null;
-	private String name;
+	private String nombre;
 
-	public Employee(String name, float maxAmount, IHandler succesor) {
-		this.name = name;
+	public Empleado(String nombre, float maxAmount, IHandler succesor) {
+		this.nombre = nombre;
 		this.maxAmount = maxAmount;
 		this.succesor = succesor;
 	}
@@ -17,10 +17,10 @@ public class Employee implements IHandler {
 			IHandler s = this.getSuccesor();
 			if (s == null)
 				throw new Exception("Nadie lo puede aprobar!!!");
-			System.out.println(this.name +  " - Se lo paso a mi superior...");
+			System.out.println(this.nombre + " - Se lo paso a mi superior...");
 			this.getSuccesor().Handle(request);
 		} else {
-			System.out.println(this.name +  " - Yo lo aprobe");
+			System.out.println(this.nombre + " - Yo lo aprobe");
 			request.setApproved(true);
 		}
 	}

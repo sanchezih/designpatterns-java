@@ -1,6 +1,7 @@
 package decomportamiento.cor02.src;
 
 public abstract class Aprobador {
+	
 	private Aprobador sucesor = null;
 
 	public Aprobador(Aprobador sucesor) {

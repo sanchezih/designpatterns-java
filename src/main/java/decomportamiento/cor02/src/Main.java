@@ -1,6 +1,7 @@
 package decomportamiento.cor02.src;
 
 public class Main {
+
 	public static void main(String[] args) {
 		Socio socio = new Socio();
 		Gerente gerente = new Gerente(socio);
