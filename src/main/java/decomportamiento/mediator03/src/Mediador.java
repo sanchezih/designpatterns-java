@@ -3,6 +3,7 @@ package decomportamiento.mediator03.src;
 import java.util.ArrayList;
 
 public class Mediador implements IMediador {
+
 	private ArrayList<Colega> colegas;
 
 	// -------------------------------

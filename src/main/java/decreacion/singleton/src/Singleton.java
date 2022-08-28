@@ -1,6 +1,7 @@
 package decreacion.singleton.src;
 
 public class Singleton {
+
 	private static Singleton singleton = null;
 	private String nombre;
 

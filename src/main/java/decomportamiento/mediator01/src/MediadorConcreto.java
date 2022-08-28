@@ -1,6 +1,7 @@
 package decomportamiento.mediator01.src;
 
 public class MediadorConcreto extends Mediador {
+
 	private Amigo amigoJuan = null;
 	private Amigo amigoPedro = null;
 

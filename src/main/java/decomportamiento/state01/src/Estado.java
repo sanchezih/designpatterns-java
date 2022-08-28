@@ -1,6 +1,7 @@
 package decomportamiento.state01.src;
 
 public abstract class Estado {
+
 	private Persona persona = null;
 
 	public Estado(Persona persona) {

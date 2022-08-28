@@ -3,6 +3,7 @@ package decomportamiento.observer.src;
 import java.util.Date;
 
 public class Examen {
+
 	private String materia;
 	private Date fecha;
 

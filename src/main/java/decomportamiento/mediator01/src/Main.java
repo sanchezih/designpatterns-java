@@ -3,14 +3,16 @@ package decomportamiento.mediator01.src;
 public class Main {
 
 	public static void main(String[] args) {
+
 		MediadorConcreto mediador = new MediadorConcreto();
-		Amigo ammigoJuan = new AmigoConcreto("Juan", mediador);
+	
+		Amigo amigoJuan = new AmigoConcreto("Juan", mediador);
 		Amigo amigoPedro = new AmigoConcreto("Pedro", mediador);
 
-		mediador.setAmigoJuan(ammigoJuan);
+		mediador.setAmigoJuan(amigoJuan);
 		mediador.setAmigoPedro(amigoPedro);
 
-		ammigoJuan.enviarTexto("Hola todo ok?");
+		amigoJuan.enviarTexto("Hola todo ok?");
 		amigoPedro.enviarTexto("Si todo ok!!!");
 
 	}

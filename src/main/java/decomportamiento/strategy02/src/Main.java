@@ -10,6 +10,7 @@ import java.util.Map;
  * World first console e-commerce application.
  */
 public class Main {
+	
 	private static Map<Integer, Integer> priceOnProducts = new HashMap<>();
 	private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 	private static Order order = new Order();

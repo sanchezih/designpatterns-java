@@ -4,7 +4,7 @@
   <class id="1" language="java" name="decomportamiento.observer.src.Estudiante" project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/decomportamiento/observer/src/Estudiante.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="153" width="180" x="259" y="37"/>    
+    <position height="153" width="180" x="41" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -14,7 +14,7 @@
   <class id="2" language="java" name="decomportamiento.observer.src.Examen" project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/decomportamiento/observer/src/Examen.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="189" width="143" x="150" y="230"/>    
+    <position height="189" width="143" x="151" y="230"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -24,7 +24,7 @@
   <class id="3" language="java" name="decomportamiento.observer.src.Profesor" project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/decomportamiento/observer/src/Profesor.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="153" width="178" x="41" y="37"/>    
+    <position height="153" width="178" x="261" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      

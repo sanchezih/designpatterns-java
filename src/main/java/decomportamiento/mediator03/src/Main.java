@@ -1,6 +1,7 @@
 package decomportamiento.mediator03.src;
 
 public class Main {
+	
 	public static void main(String[] args) {
 
 		// Crear el objeto centralizador de la comunicacion
