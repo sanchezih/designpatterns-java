@@ -2,6 +2,12 @@ package decomportamiento.strategy01.src;
 
 import java.util.HashMap;
 
+/**
+ * Clase de contexto
+ * 
+ * @author ihsanch
+ *
+ */
 public class ExportadorDeDatosPersonales {
 
 	private EstrategiaDeExportacion estrategia = null;

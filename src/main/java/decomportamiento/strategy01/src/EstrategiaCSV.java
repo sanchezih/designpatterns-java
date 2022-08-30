@@ -1,5 +1,11 @@
 package decomportamiento.strategy01.src;
 
+/**
+ * Estrategia concreta
+ * 
+ * @author ihsanch
+ *
+ */
 public class EstrategiaCSV extends EstrategiaDeExportacion {
 
 	public void exportarDatos() {

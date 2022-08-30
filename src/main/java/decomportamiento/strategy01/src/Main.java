@@ -3,6 +3,7 @@ package decomportamiento.strategy01.src;
 public class Main {
 
 	public static void main(String[] args) {
+
 		EstrategiaDeExportacion estrategia = null;
 		Persona persona = new Persona("Juan Carlos", 34, "Callao 1147");
 		ExportadorDeDatosPersonales exportadorDeDatos = new ExportadorDeDatosPersonales();
