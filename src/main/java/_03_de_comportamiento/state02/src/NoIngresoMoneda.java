@@ -1,9 +1,10 @@
 package _03_de_comportamiento.state02.src;
 
-public class NoIngresoMoneda implements State {
-	ExpendedoraCaranelos expendedoraCaranelos;
+public class NoIngresoMoneda implements Estado {
+	
+	ExpendedoraDeCaramelos expendedoraCaranelos;
 
-	public NoIngresoMoneda(ExpendedoraCaranelos expendedoraCaranelos) {
+	public NoIngresoMoneda(ExpendedoraDeCaramelos expendedoraCaranelos) {
 		this.expendedoraCaranelos = expendedoraCaranelos;
 	}
 

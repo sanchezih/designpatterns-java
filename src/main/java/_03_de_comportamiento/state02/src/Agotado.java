@@ -1,9 +1,9 @@
 package _03_de_comportamiento.state02.src;
 
-public class Agotado implements State {
-	ExpendedoraCaranelos expendedoraCaranelos;
+public class Agotado implements Estado {
+	ExpendedoraDeCaramelos expendedoraCaranelos;
 
-	public Agotado(ExpendedoraCaranelos expendedoraCaranelos) {
+	public Agotado(ExpendedoraDeCaramelos expendedoraCaranelos) {
 		this.expendedoraCaranelos = expendedoraCaranelos;
 	}
 

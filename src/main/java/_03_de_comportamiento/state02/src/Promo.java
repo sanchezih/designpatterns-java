@@ -1,9 +1,9 @@
 package _03_de_comportamiento.state02.src;
 
-public class Promo implements State {
-	ExpendedoraCaranelos expendedoraCaranelos;
+public class Promo implements Estado {
+	ExpendedoraDeCaramelos expendedoraCaranelos;
 
-	public Promo(ExpendedoraCaranelos expendedoraCaranelos) {
+	public Promo(ExpendedoraDeCaramelos expendedoraCaranelos) {
 		this.expendedoraCaranelos = expendedoraCaranelos;
 	}
 

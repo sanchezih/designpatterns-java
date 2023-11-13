@@ -2,11 +2,12 @@ package _03_de_comportamiento.state02.src;
 
 import java.util.Random;
 
-public class IngresoMoneda implements State {
+public class IngresoMoneda implements Estado {
+	
 	Random randomPromo = new Random(System.currentTimeMillis());
-	ExpendedoraCaranelos expendedoraCaramelos;
+	ExpendedoraDeCaramelos expendedoraCaramelos;
 
-	public IngresoMoneda(ExpendedoraCaranelos expendedoraCaramelo) {
+	public IngresoMoneda(ExpendedoraDeCaramelos expendedoraCaramelo) {
 		this.expendedoraCaramelos = expendedoraCaramelo;
 	}
 

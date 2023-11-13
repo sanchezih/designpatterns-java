@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="_02_estructurales._05_facade.ejemplo01.src.Auto" project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_02_estructurales/_05_facade/ejemplo01/src/Auto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="197" x="599" y="315"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="_02_estructurales._05_facade.ejemplo01.src.Cliente" project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_02_estructurales/_05_facade/ejemplo01/src/Cliente.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="197" x="271" y="315"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="_02_estructurales._05_facade.ejemplo01.src.Concesionaria" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_02_estructurales/_05_facade/ejemplo01/src/Concesionaria.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="271" x="311" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="_02_estructurales._05_facade.ejemplo01.src.Banco" project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_02_estructurales/_05_facade/ejemplo01/src/Banco.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="209" x="41" y="176"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="_02_estructurales._05_facade.ejemplo01.src.EmpresaDeTransporte" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_02_estructurales/_05_facade/ejemplo01/src/EmpresaDeTransporte.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="227" x="311" y="176"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="_02_estructurales._05_facade.ejemplo01.src.FabricaDeAutos" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_02_estructurales/_05_facade/ejemplo01/src/FabricaDeAutos.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="197" x="578" y="176"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="9">    
+    <bendpoint x="280" y="176"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="14">    
+    <bendpoint x="805" y="176"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
