@@ -5,11 +5,20 @@ public class Singleton {
 	private static Singleton singleton = null;
 	private String nombre;
 
+	/**
+	 * 
+	 * @param nombre
+	 */
 	private Singleton(String nombre) {
 		this.nombre = nombre;
 		System.out.println("Creando el objeto " + nombre);
 	}
 
+	/**
+	 * 
+	 * @param nombre
+	 * @return
+	 */
 	public static Singleton getInstance(String nombre) {
 		if (singleton == null) {
 			System.out.println("Generando un nuevo singleton");

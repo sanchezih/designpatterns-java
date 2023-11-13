@@ -1,70 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="_01_de_creacion._03_factory_method.ejemplo01.src.FacturaIvaReducido" 
-    project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_01_de_creacion/_03_factory_method/ejemplo01/src/FacturaIvaReducido.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="231" x="252" y="357"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="2" language="java" name="_01_de_creacion._03_factory_method.ejemplo01.src.FactoriaFacturas" 
+  <class id="1" language="java" name="_01_de_creacion._03_factory_method.ejemplo01.src.FactoriaFacturas" 
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_03_factory_method/ejemplo01/src/FactoriaFacturas.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="231" x="252" y="110"/>    
+    <position height="117" width="231" x="177" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="_01_de_creacion._03_factory_method.ejemplo01.src.FacturaIva" 
-    project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_01_de_creacion/_03_factory_method/ejemplo01/src/FacturaIva.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="231" x="523" y="357"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="_01_de_creacion._03_factory_method.ejemplo01.src.Factura" 
+  <class id="2" language="java" name="_01_de_creacion._03_factory_method.ejemplo01.src.Factura" 
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_03_factory_method/ejemplo01/src/Factura.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="207" width="231" x="523" y="110"/>    
+    <position height="207" width="231" x="177" y="194"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="5">    
+  <class id="3" language="java" name="_01_de_creacion._03_factory_method.ejemplo01.src.FacturaConIvaReducido" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_03_factory_method/ejemplo01/src/FacturaConIvaReducido.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="231" x="41" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="_01_de_creacion._03_factory_method.ejemplo01.src.FacturaConIvaStandard" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_03_factory_method/ejemplo01/src/FacturaConIvaStandard.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="231" x="312" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="5">    
     <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <dependency id="6">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="TARGET" refId="2"/>  
   </dependency>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
   <generalization id="7">    
     <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="TARGET" refId="2"/>  
   </generalization>  
-  <dependency id="8">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
-  </dependency>  
-  <dependency id="9">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

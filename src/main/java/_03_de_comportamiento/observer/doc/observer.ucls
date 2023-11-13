@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="_02_de_comportamiento.observer.src.Estudiante" project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_02_de_comportamiento/observer/src/Estudiante.java" binary="false" 
+  <class id="1" language="java" name="_03_de_comportamiento.observer.src.Estudiante" project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_03_de_comportamiento/observer/src/Estudiante.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="153" width="180" x="41" y="37"/>    
+    <position height="153" width="180" x="145" y="282"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="_02_de_comportamiento.observer.src.Examen" project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_02_de_comportamiento/observer/src/Examen.java" binary="false" 
+  <class id="2" language="java" name="_03_de_comportamiento.observer.src.Examen" project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_03_de_comportamiento/observer/src/Examen.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="189" width="143" x="151" y="230"/>    
+    <position height="-1" width="-1" x="429" y="137"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="_02_de_comportamiento.observer.src.Profesor" project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_02_de_comportamiento/observer/src/Profesor.java" binary="false" 
+  <class id="3" language="java" name="_03_de_comportamiento.observer.src.Profesor" project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_03_de_comportamiento/observer/src/Profesor.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="153" width="178" x="261" y="37"/>    
+    <position height="153" width="178" x="514" y="296"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -32,11 +32,11 @@
     </display>  
   </class>  
   <dependency id="4">    
-    <end type="SOURCE" refId="3"/>    
+    <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
   <dependency id="5">    
-    <end type="SOURCE" refId="1"/>    
+    <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
