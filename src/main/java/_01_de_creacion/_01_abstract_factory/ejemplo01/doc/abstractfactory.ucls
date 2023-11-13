@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.CocaColaFactory" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/CocaColaFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="277" x="436" y="351"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.Mirinda" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/Mirinda.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="503" y="808"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.ProductorasDeBedidasFactory" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/ProductorasDeBedidasFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="225" x="277" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.Fanta" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/Fanta.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="728" y="804"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.Pepsi" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/Pepsi.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="138" x="41" y="755"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.BebidaDeNaranjaAbstracta" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/BebidaDeNaranjaAbstracta.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="602" y="612"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.PepsiColaFactory" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/PepsiColaFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="277" x="119" y="351"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.AbstractFactory" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/AbstractFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="287" x="277" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.BebidaDeColaAbstracta" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/BebidaDeColaAbstracta.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="162" x="195" y="508"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.CocaCola" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/CocaCola.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="138" x="219" y="755"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
