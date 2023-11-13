@@ -1,6 +1,6 @@
 package _01_de_creacion._01_abstract_factory.ejemplo01.src;
 
-public class Fanta extends BebidaDeNaranjaAbstracta {
+public class Fanta extends BebidaDeNaranja {
 
 	public Fanta() {
 		setNombre("Fanta");

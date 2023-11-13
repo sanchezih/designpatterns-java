@@ -5,8 +5,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		ProductorasDeBedidasFactory mainFactory = new ProductorasDeBedidasFactory();
-		BebidaDeColaAbstracta bebidaDeCola = null;
-		BebidaDeNaranjaAbstracta bebidaDeNaranja = null;
+		BebidaDeCola bebidaDeCola = null;
+		BebidaDeNaranja bebidaDeNaranja = null;
 		AbstractFactory factory = null;
 
 		factory = mainFactory.crearCocaColaFactory();

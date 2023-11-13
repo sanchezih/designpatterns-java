@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.CocaColaCompanyFactory" 
+  <class id="1" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.BebidaDeNaranja" 
     project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/CocaColaCompanyFactory.java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/BebidaDeNaranja.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="277" x="42" y="441"/>    
+    <position height="207" width="233" x="259" y="508"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.BebidaDeColaAbstracta" 
+  <class id="2" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.CocaColaCompanyFactory" 
     project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/BebidaDeColaAbstracta.java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/CocaColaCompanyFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="233" x="1093" y="37"/>    
+    <position height="117" width="233" x="219" y="351"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -27,7 +27,7 @@
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/CocaCola.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="233" x="1230" y="284"/>    
+    <position height="99" width="233" x="319" y="755"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -38,7 +38,7 @@
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/Fanta.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="233" x="411" y="284"/>    
+    <position height="99" width="233" x="46" y="755"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -49,40 +49,40 @@
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/PepsiCoFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="277" x="371" y="441"/>    
+    <position height="117" width="233" x="733" y="351"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.Pepsi" 
+  <class id="6" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.BebidaDeCola" 
+    project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/BebidaDeCola.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="233" x="532" y="508"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.Pepsi" 
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/Pepsi.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="233" x="957" y="284"/>    
+    <position height="99" width="233" x="865" y="755"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.AbstractFactory" 
+  <class id="8" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.AbstractFactory" 
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/AbstractFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="287" x="63" y="284"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="8" language="java" name="_01_de_creacion._01_abstract_factory.ejemplo01.src.BebidaDeNaranjaAbstracta" 
-    project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/BebidaDeNaranjaAbstracta.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="207" width="233" x="547" y="37"/>    
+    <position height="117" width="239" x="473" y="194"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -93,7 +93,7 @@
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/Mirinda.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="233" x="684" y="284"/>    
+    <position height="99" width="233" x="592" y="755"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -104,7 +104,7 @@
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/ProductorasDeBedidasFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="233" x="63" y="37"/>    
+    <position height="117" width="233" x="473" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -112,42 +112,88 @@
     </display>  
   </class>  
   <dependency id="11">    
-    <bendpoint x="32" y="284"/>    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="1"/>  
+    <bendpoint x="141" y="508"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
   </dependency>  
   <dependency id="12">    
+    <bendpoint x="355" y="194"/>    
     <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <generalization id="13">    
-    <end type="SOURCE" refId="6"/>    
     <end type="TARGET" refId="2"/>  
-  </generalization>  
+  </dependency>  
+  <dependency id="13">    
+    <bendpoint x="228" y="508"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
   <generalization id="14">    
-    <end type="SOURCE" refId="9"/>    
+    <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="8"/>  
   </generalization>  
-  <generalization id="15">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="7"/>  
-  </generalization>  
-  <generalization id="16">    
+  <dependency id="15">    
+    <bendpoint x="482" y="351"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="16">    
     <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="7"/>  
-  </generalization>  
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
   <generalization id="17">    
     <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
+    <end type="TARGET" refId="6"/>  
   </generalization>  
-  <generalization id="18">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="8"/>  
-  </generalization>  
-  <dependency id="19">    
-    <bendpoint x="380" y="284"/>    
+  <dependency id="18">    
+    <bendpoint x="742" y="194"/>    
     <end type="SOURCE" refId="10"/>    
     <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="22">    
+    <bendpoint x="816" y="508"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <dependency id="26">    
+    <bendpoint x="795" y="508"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="27">    
+    <bendpoint x="512" y="351"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
