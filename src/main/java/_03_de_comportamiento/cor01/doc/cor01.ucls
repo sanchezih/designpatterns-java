@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="_02_de_comportamiento.cor01.src.Empleado" project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_02_de_comportamiento/cor01/src/Empleado.java" binary="false" 
+  <class id="1" language="java" name="_03_de_comportamiento.cor01.src.Empleado" project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_03_de_comportamiento/cor01/src/Empleado.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="169" width="176" x="111" y="37"/>    
+    <position height="171" width="174" x="117" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="2" language="java" name="_02_de_comportamiento.cor01.src.IHandler" project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_02_de_comportamiento/cor01/src/IHandler.java" binary="false" 
+  <interface id="2" language="java" name="_03_de_comportamiento.cor01.src.IHandler" project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_03_de_comportamiento/cor01/src/IHandler.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="195" y="370"/>    
+    <position height="117" width="158" x="42" y="248"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="3" language="java" name="_02_de_comportamiento.cor01.src.Request" project="designpatterns-java" 
-    file="/designpatterns-java/src/main/java/_02_de_comportamiento/cor01/src/Request.java" binary="false" 
+  <class id="3" language="java" name="_03_de_comportamiento.cor01.src.Request" project="designpatterns-java" 
+    file="/designpatterns-java/src/main/java/_03_de_comportamiento/cor01/src/Request.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="470" y="120"/>    
+    <position height="189" width="158" x="133" y="405"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -36,26 +36,22 @@
     <end type="TARGET" refId="2"/>  
   </realization>  
   <dependency id="5">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="6">    
+    <bendpoint x="230" y="248"/>    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
-  <association id="6">    
+  <association id="7">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="7" name="succesor">        
-        <position height="0" width="0" x="77" y="67"/>      
-      </attribute>      
-      <multiplicity id="8" minimum="0" maximum="1">        
-        <position height="0" width="0" x="77" y="67"/>      
-      </multiplicity>    
+      <attribute id="8" name="succesor"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="9">    
-    <bendpoint x="470" y="370"/>    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
