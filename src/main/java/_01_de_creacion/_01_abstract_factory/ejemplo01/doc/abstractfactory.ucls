@@ -5,7 +5,7 @@
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/BebidaDeNaranja.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="207" width="233" x="259" y="508"/>    
+    <position height="-1" width="-1" x="399" y="620"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -16,7 +16,7 @@
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/CocaColaCompanyFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="233" x="219" y="351"/>    
+    <position height="-1" width="-1" x="314" y="390"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -38,7 +38,7 @@
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/Fanta.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="233" x="46" y="755"/>    
+    <position height="-1" width="-1" x="119" y="812"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -60,7 +60,7 @@
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/BebidaDeCola.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="233" x="532" y="508"/>    
+    <position height="-1" width="-1" x="731" y="601"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -71,7 +71,7 @@
     project="designpatterns-java" 
     file="/designpatterns-java/src/main/java/_01_de_creacion/_01_abstract_factory/ejemplo01/src/Pepsi.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="233" x="865" y="755"/>    
+    <position height="-1" width="-1" x="1026" y="786"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -116,84 +116,81 @@
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="4"/>  
   </dependency>  
-  <dependency id="12">    
+  <generalization id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="15">    
     <bendpoint x="355" y="194"/>    
     <end type="SOURCE" refId="10"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
-  <dependency id="13">    
-    <bendpoint x="228" y="508"/>    
+  <generalization id="16">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="18">    
+    <bendpoint x="166" y="696"/>    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
-  <generalization id="14">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="8"/>  
-  </generalization>  
-  <dependency id="15">    
-    <bendpoint x="482" y="351"/>    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="1"/>  
-  </dependency>  
-  <dependency id="16">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="1"/>  
-  </dependency>  
-  <generalization id="17">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="6"/>  
-  </generalization>  
-  <dependency id="18">    
-    <bendpoint x="742" y="194"/>    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="5"/>  
-  </dependency>  
   <dependency id="19">    
-    <end type="SOURCE" refId="5"/>    
+    <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="6"/>  
   </dependency>  
-  <dependency id="20">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
   <dependency id="21">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </dependency>  
-  <dependency id="22">    
-    <bendpoint x="816" y="508"/>    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <generalization id="23">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <generalization id="24">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <generalization id="25">    
+  <generalization id="22">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="8"/>  
   </generalization>  
-  <dependency id="26">    
-    <bendpoint x="795" y="508"/>    
+  <dependency id="23">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="24">    
+    <bendpoint x="906" y="698"/>    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="9"/>  
   </dependency>  
-  <dependency id="27">    
-    <bendpoint x="512" y="351"/>    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="6"/>  
-  </dependency>  
-  <generalization id="28">    
-    <end type="SOURCE" refId="7"/>    
+  <generalization id="25">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="6"/>  
   </generalization>  
+  <dependency id="27">    
+    <bendpoint x="742" y="194"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
   <dependency id="29">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="6"/>  
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
